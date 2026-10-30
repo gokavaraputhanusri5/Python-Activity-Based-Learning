@@ -28,7 +28,7 @@ Develop a Python program to calculate an employee's gross salary based on basic 
 10. Stop the program.
 
  4. Flowchart id
-```mermeid
+```mermaid
     A([Start]) --> B[/Input Employee Details/]
     B --> C[/Input Basic Salary, Allowances/]
     C --> D[/Input Overtime Hours, Rate and Incentives/]
