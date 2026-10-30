@@ -1,3 +1,5 @@
+# Employee Payroll and Deduction Analysis Using Python
+
 ## 1. Problem Statement
 
 Develop a Python program to calculate an employee's gross salary based on basic pay, allowances, overtime pay, and incentives. Apply progressive deductions based on the gross salary and calculate the net salary. Finally, generate a properly formatted salary statement displaying the employee details, salary components, total gross salary, deductions, and net salary.
@@ -27,8 +29,10 @@ Develop a Python program to calculate an employee's gross salary based on basic 
 9. Display the formatted salary statement.
 10. Stop the program.
 
- 4. Flowchart id
-```mermaid
+
+## 3. Flowchart 
+``` mermaid
+flowchart TD
     A([Start]) --> B[/Input Employee Details/]
     B --> C[/Input Basic Salary, Allowances/]
     C --> D[/Input Overtime Hours, Rate and Incentives/]
@@ -45,7 +49,8 @@ Develop a Python program to calculate an employee's gross salary based on basic 
     L --> M[/Display Salary Statement/]
     M --> N([Stop])
 ```
-## 5. Sample Input
+
+## 4. Sample Input
 
 ```
 Enter Employee Name: Ravi
@@ -57,7 +62,7 @@ Enter Overtime Rate per Hour: 200
 Enter Incentives: 3000
 ```
 
-## 6. Sample Output
+## 5. Sample Output
 
 ```
 ========== SALARY STATEMENT ==========
@@ -75,4 +80,3 @@ Deductions    : Rs. 3000.0
 Net Salary    : Rs. 37000.0
 ======================================
 ```
-
