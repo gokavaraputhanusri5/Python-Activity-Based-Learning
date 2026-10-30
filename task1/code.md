@@ -1,5 +1,3 @@
-
-
 ## 1. Problem Statement
 
 Develop a Python program to calculate an employee's gross salary based on basic pay, allowances, overtime pay, and incentives. Apply progressive deductions based on the gross salary and calculate the net salary. Finally, generate a properly formatted salary statement displaying the employee details, salary components, total gross salary, deductions, and net salary.
@@ -29,11 +27,9 @@ Develop a Python program to calculate an employee's gross salary based on basic 
 9. Display the formatted salary statement.
 10. Stop the program.
 
-
-
-``` 4. Flowchart (Mermaid Code)
-
-flowchart TD
+ 4. Flowchart (Mermaid Code)
+flowchart id
+```mermeid
     A([Start]) --> B[/Input Employee Details/]
     B --> C[/Input Basic Salary, Allowances/]
     C --> D[/Input Overtime Hours, Rate and Incentives/]
@@ -50,8 +46,6 @@ flowchart TD
     L --> M[/Display Salary Statement/]
     M --> N([Stop])
 ```
-
-
 ## 5. Sample Input
 
 ```
