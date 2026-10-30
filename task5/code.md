@@ -94,4 +94,3 @@ Penalty: Rs. 0
 Total Fee: Rs. 120
 ===========================
 ```
-Note: The hourly rates, daily limits, and penalty amounts are assumed values for this academic program. The program treats equal entry and exit times as 24 hours of parking.
