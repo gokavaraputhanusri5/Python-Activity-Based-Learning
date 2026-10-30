@@ -27,13 +27,8 @@ The program should use conditional statements, loops, strings, lists, nested lis
 9. Display the final message.
 10. Stop the program.
 
-## 3. Python Source Code
 
-```
-# Smart Campus Management Systemstudents = []attendance = []marks = []events = []allocations = []# Classroom details using tuplesrooms = (("A101", 40), ("A102", 60), ("B201", 80))while True:    print("\n===== SMART CAMPUS MANAGEMENT =====")    print("1. Add Student")    print("2. Record Attendance")    print("3. Enter Student Marks")    print("4. Event Registration")    print("5. Resource Allocation")    print("6. Summary Report")    print("7. Exit")    choice = int(input("Enter your choice: "))    if choice == 1:        sid = input("Enter Student ID: ")        name = input("Enter Student Name: ")        branch = input("Enter Branch: ")        students.append((sid, name, branch))        print("Student added successfully!")    elif choice == 2:        sid = input("Enter Student ID: ")        present = int(input("Enter Present Days: "))        total = int(input("Enter Total Working Days: "))        if total > 0 and 0 <= present <= total:
-```
-
-## 4. Flowchart 
+## 3. Flowchart 
 ```mermaid code
 
 flowchart TD
@@ -87,7 +82,7 @@ flowchart TD
 
 
 
-## 5. Sample Input
+## 4. Sample Input
 
 ```
 ===== SMART CAMPUS MANAGEMENT =====
@@ -127,7 +122,7 @@ Enter your choice: 6
 Enter your choice: 7
 ```
 
-## 6. Sample Output
+## 5. Sample Output
 
 ```
 ===== SMART CAMPUS MANAGEMENT =====
