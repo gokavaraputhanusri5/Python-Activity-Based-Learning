@@ -38,6 +38,39 @@ The program should use variables, conditional statements, loops, lists, dictiona
 ## 3. Flowchart 
 ```mermaid code
 
+flowchart TD
+    A([START]) --> B[Initialize Product Inventory]
+    B --> C[Display Product Details]
+    C --> D[/Enter Number of Orders/]
+    D --> E[Process Order]
+    E --> F[/Enter Product Name and Quantity/]
+    F --> G{Product Available?}
+    G -->|No| H[Display Product Not Found]
+    G -->|Yes| I{Sufficient Stock?}
+    I -->|No| J[Display Insufficient Stock]
+    I -->|Yes| K[Calculate Order Amount]
+    K --> L{Amount >= 5000?}
+    L -->|Yes| M[Apply 10% Discount]
+    L -->|No| N[No Discount]
+    M --> O[Calculate Final Amount]
+    N --> O
+    O --> P[Dispatch Product and Reduce Stock]
+    P --> Q[/Enter Returned Quantity/]
+    Q --> R{Valid Return Quantity?}
+    R -->|Yes| S[Update Stock and Revenue]
+    R -->|No| T[Display Invalid Return]
+    S --> U[Store Order Details]
+    T --> U
+    H --> V{More Orders?}
+    J --> V
+    U --> V
+    V -->|Yes| E
+    V -->|No| W[Calculate Total Revenue]
+    W --> X[Perform Inventory Reconciliation]
+    X --> Y[Identify Stock Discrepancies]
+    Y --> Z[Display Final Inventory Summary]
+    Z --> AA([STOP])
+```
 
 ## 4. Sample Input
 
